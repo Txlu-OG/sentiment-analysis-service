@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Welcome to the Sentiment Analysis Service!"
+    return "Welcome to Sentiment Analysis Service - CI/CD Version!"
 
 @app.route("/predict", methods=["POST"])
 def predict():
